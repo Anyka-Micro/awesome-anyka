@@ -33,9 +33,7 @@ Toolchains, BSPs, kernel and U-Boot trees, flashing and recovery tools.
 
 | Project | Maintainer | What it is | Chips | Status | License | Checked |
 |---|---|---|---|---|---|---|
-| [OpenIPC/firmware](https://github.com/OpenIPC/firmware) | Community · [@OpenIPC](https://github.com/OpenIPC) | Buildroot-based replacement firmware for IP cameras from many SoC vendors; its Anyka layer has board configs for the AK3916EV300 and AK3918EV300. | AK3916EV300, AK3918EV300 | 🟢 Active | MIT | 2026-10-16 |
-| [Nemobi/arm-anykav200-crosstool-docker](https://github.com/Nemobi/arm-anykav200-crosstool-docker) | Community · [@Nemobi](https://github.com/Nemobi) | A Dockerfile that packages the anykav200 cross toolchain into a container image. | AK3918 (anykav200 toolchain) | ⚪ Inactive (2022) | No license — link only | 2026-10-16 |
-| [MXDMY/ak37e_lvgl8](https://github.com/MXDMY/ak37e_lvgl8) | Community · [@MXDMY](https://github.com/MXDMY) | A port of the LVGL 8.2 graphics library to the AK37E platform, meant as a starting template for GUI apps. | AK37E | 📦 Archived | Apache-2.0 | 2026-10-16 |
+| [Nemobi/arm-anykav200-crosstool-docker](https://github.com/Nemobi/arm-anykav200-crosstool-docker) | Community · [@Nemobi](https://github.com/Nemobi) | A Dockerfile that packages the anykav200 cross toolchain into a container image. | AK3918 (anykav200 toolchain) | ⚪ Inactive (May 2022) | No license — link only | 2026-11-01 |
 
 ## 📷 Applications
 
@@ -43,13 +41,7 @@ Firmware, camera and streaming apps, and integrations built on the SDKs above.
 
 | Project | Maintainer | What it is | Chips | Status | License | Checked |
 |---|---|---|---|---|---|---|
-| [MuhammedKalkan/Anyka-Camera-Firmware](https://github.com/MuhammedKalkan/Anyka-Camera-Firmware) | Community · [@MuhammedKalkan](https://github.com/MuhammedKalkan) | SD-card based custom firmware and apps (RTSP, web UI, PTZ) for AK3918 cameras. Many later projects build on it. | AK3918 (tested on AK3918v200EN080) | ⚪ Inactive (Feb 2025) | MIT | 2026-10-16 |
-| [kkrzysztofik/Anyka_ak3918_hacking_journey](https://github.com/kkrzysztofik/Anyka_ak3918_hacking_journey) | Community · [@kkrzysztofik](https://github.com/kkrzysztofik) | An actively maintained continuation of Gerge's AK3918 hacking project (originally on Gitea), adding fixes and a Rust rewrite of the ONVIF services. | AK3918 | 🟢 Active | GPL-3.0 | 2026-10-16 |
-| [ThatUsernameAlreadyExist/anyka-v4l2rtspserver](https://github.com/ThatUsernameAlreadyExist/anyka-v4l2rtspserver) | Community · [@ThatUsernameAlreadyExist](https://github.com/ThatUsernameAlreadyExist) | An AK3918 port of mpromonet's v4l2rtspserver RTSP server. | AK3918 | ⚪ Inactive (Apr 2025) | Unlicense | 2026-10-16 |
-| [dangerousplay/kamoder](https://github.com/dangerousplay/kamoder) | Community · [@dangerousplay](https://github.com/dangerousplay) | Replacement camera firmware written in Rust that boots from the SD card, with RTSP, ONVIF, PTZ and a web UI. | AK3918 (EV200, AV100) | 🟢 Active | GPL-3.0 | 2026-10-16 |
-| [michelostojski/akost-firmware](https://github.com/michelostojski/akost-firmware) | Community · [@michelostojski](https://github.com/michelostojski) | A Buildroot external tree that builds open firmware for AK39EV330 cameras such as the GNCC GK2, with RTSP and ONVIF. | AK39EV330 | 🟢 Active | MIT | 2026-10-16 |
-| [jphein/anyka3918-gc1084-camera](https://github.com/jphein/anyka3918-gc1084-camera) | Community · [@jphein](https://github.com/jphein) | Local RTSP, PTZ and Home Assistant support for AK3918 cameras with a GC1084 sensor, such as the Teruhal TC20. | AK3918 | 🟢 Active | GPL-3.0 | 2026-10-16 |
-| [SotosSW/anykav380-ak3918-hacking](https://github.com/SotosSW/anykav380-ak3918-hacking) | Community · [@SotosSW](https://github.com/SotosSW) | Takes V380-style AK3918 cameras off the cloud with RTSP, ONVIF and an improved PTZ daemon. Builds on work by MuhammedKalkan and kuhnchris. | AK3918 | 🟢 Active | GPL-3.0 | 2026-10-16 |
+| [michelostojski/akost-firmware](https://github.com/michelostojski/akost-firmware) | Community · [@michelostojski](https://github.com/michelostojski) | A Buildroot external tree that builds open firmware for AK39EV330 cameras such as the GNCC GK2, with RTSP and ONVIF. | AK39EV330 | 🟢 Active | MIT | 2026-11-01 |
 
 <!--
   ROW TEMPLATE. Every column is required (see https://github.com/Anyka-Micro/.github/blob/main/CONTRIBUTING.md).
